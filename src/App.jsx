@@ -476,7 +476,7 @@ function Hero() {
         <div>
           <div className="mb-5 sm:mb-8">
             <span className="section-label text-[11px] sm:text-xs">
-              Engenharia de Captação Odontológica
+              Enche a agenda, não o feed
             </span>
           </div>
           <h1 className="text-[32px] sm:text-5xl lg:text-7xl font-bold text-[#102A43] leading-[1.1] sm:leading-[0.95] tracking-tight sm:tracking-tighter mb-6 sm:mb-8">
@@ -578,9 +578,9 @@ function PainPoints() {
     <section ref={ref} className="py-14 sm:py-20 px-4 sm:px-8 relative z-10 transition-all duration-[1750ms]">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-8 sm:mb-12 text-center">
-          <span className={`section-label mb-4 transition-all duration-[1750ms] ${isDark ? '!text-red-400' : ''}`}>O Diagnóstico da Dor</span>
+          <span className={`section-label mb-4 transition-all duration-[1750ms] ${isDark ? '!text-red-400' : ''}`}>A real do seu mercado</span>
           <h2 className={`text-2xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6 transition-colors duration-[1750ms] ${isDark ? 'text-white drop-shadow-lg' : 'text-[#102A43]'}`}>
-            O prejuízo silencioso de ser invisível<br className="hidden sm:block" /> no digital.
+Não falta paciente na sua cidade.<br className="hidden sm:block" /> Falta paciente sabendo que você existe.
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
@@ -603,19 +603,19 @@ function PainPoints() {
 
 function Services() {
   const services = [
-    { icon: 'search', name: 'Raio-X', desc: 'Raio-X do seu posicionamento local: o que o paciente vê ao procurar um dentista na sua região — e onde você perde para o concorrente.' },
-    { icon: 'megaphone', name: 'Anúncios Cirúrgicos', desc: 'Google e Meta (Instagram e Facebook) mirados na sua especialidade: implante, lente, ortodontia, harmonização.' },
-    { icon: 'globe', name: 'Vitrine de Elite', desc: 'Página e perfil limpos, institucionais e 100% adequados ao CFO. Autoridade que fecha tratamento. Zero dancinha.' },
-    { icon: 'phone', name: 'Auditoria Comercial', desc: 'O contato chega. A gente treina sua recepção para não deixar o paciente escapar no WhatsApp.' },
+    { icon: 'search', name: 'Diagnóstico', desc: 'A gente olha o que o paciente vê quando procura um dentista na sua região — e onde você está perdendo pro concorrente.' },
+    { icon: 'megaphone', name: 'Anúncios que trazem paciente', desc: 'Google e Meta mirados na sua especialidade: implante, lente, ortodontia. Você aparece pra quem já está procurando.' },
+    { icon: 'globe', name: 'Sua vitrine online', desc: 'Página e perfil com cara de autoridade e dentro das regras do CFO. Nada de dancinha.' },
+    { icon: 'phone', name: 'Recepção que fecha', desc: 'O contato chega. A gente treina seu WhatsApp pra virar consulta marcada, não "vou pensar".' },
   ]
 
   return (
     <section id="servicos" className="py-14 sm:py-20 px-4 sm:px-8 relative">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8 sm:mb-12">
-          <span className="section-label mb-4 sm:mb-6">O Mecanismo Único</span>
+          <span className="section-label mb-4 sm:mb-6">Como a gente resolve</span>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">
-            Engenharia de<br />Precisão Comercial.
+            O que a gente faz<br />pra encher sua agenda.
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
@@ -641,8 +641,8 @@ function Results() {
     <section id="resultados" className="py-14 sm:py-20 px-4 sm:px-8 relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-10 sm:mb-14 text-center">
-          <span className="section-label mb-4 sm:mb-6">A Prova Fria</span>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">Impacto Auditado.</h2>
+          <span className="section-label mb-4 sm:mb-6">Os números</span>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">O que a máquina entrega.</h2>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
           {[
@@ -668,7 +668,7 @@ function RiskReversal() {
   return (
     <section className="py-14 sm:py-20 px-4 sm:px-8 relative overflow-hidden">
       <div className="max-w-5xl mx-auto glass-card p-6 sm:p-12 lg:p-20 bg-[#F7F9FC] border-[#2CB1BC]/30">
-        <span className="section-label mb-5 sm:mb-8">Inversão Total de Risco</span>
+        <span className="section-label mb-5 sm:mb-8">O risco é nosso</span>
         <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-6 sm:mb-10 leading-tight">
           Você não paga para imaginar.<br />
           <span className="text-[#2CB1BC]">Você vê pronto.</span>
@@ -676,11 +676,11 @@ function RiskReversal() {
         <div className="space-y-4 sm:space-y-6 text-[#486581] text-base sm:text-xl font-medium mb-8 sm:mb-12">
           <p>Entregamos sua estrutura pronta em <strong className="text-[#102A43]">48 horas ANTES do contrato:</strong></p>
           <ul className="space-y-3 sm:space-y-4 text-sm sm:text-lg">
-            <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Sua nova Vitrine de Elite estruturada.</li>
+            <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Sua vitrine online pronta.</li>
             <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Landing Page de alta conversão.</li>
             <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Linha editorial de posts/reels chave.</li>
             <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Diretriz de marca, e posicionamento.</li>
-            <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> O desenho tático dos seus Anúncios Cirúrgicos.</li>
+            <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> Seus anúncios montados, prontos pra subir.</li>
             <li className="flex items-start gap-2.5 sm:gap-3"><Icon name="check" className="w-4 h-4 sm:w-5 sm:h-5 text-[#2CB1BC] shrink-0 mt-0.5" /> A auditoria de presença digital do seu território.</li>
           </ul>
           <p className="pt-4 border-t border-[#102A43]/10 text-sm sm:text-base">Se você aprovar o sistema, nós avançamos. Se não, você não deve um único centavo. Risco zero para o seu consultório.</p>
@@ -704,8 +704,8 @@ function Plans() {
     <section id="planos" className="py-14 sm:py-20 px-4 sm:px-8 relative bg-[#F7F9FC]">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8 sm:mb-12">
-          <span className="section-label mb-4 sm:mb-6">Planos de Engenharia</span>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">Ativos de Performance.</h2>
+          <span className="section-label mb-4 sm:mb-6">Planos</span>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">Escolhe o seu.</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5 sm:gap-8">
@@ -787,7 +787,7 @@ function Deliverables48h() {
     { icon: 'sparkles', title: 'Diretriz de Marca & Posicionamento', desc: 'Identidade visual ajustada para atrair pacientes de alto ticket com autoridade institucional.' },
     { icon: 'globe', title: 'Landing Page de Alta Conversão', desc: 'Página institucional ultraveloz, focada em agendamento e 100% adequada às normas do CFO.' },
     { icon: 'instagram', title: 'Vitrine Digital no Instagram', desc: 'Configuração estratégica do perfil, bio, destaques e grade visual para transmitir autoridade. Zero dancinhas.' },
-    { icon: 'target', title: 'Anúncios Cirúrgicos Configurados', desc: 'Campanhas de Google e Meta prontas para capturar o paciente no momento exato da busca pela sua especialidade.' },
+    { icon: 'target', title: 'Anúncios prontos pra subir', desc: 'Campanhas de Google e Meta montadas pra capturar o paciente no momento exato da busca pela sua especialidade.' },
     { icon: 'clipboard', title: 'Linha Editorial de Conteúdo', desc: 'Calendário de posts e reels estratégicos para manter sua vitrine ativa e atrair leads qualificados.' },
     { icon: 'map', title: 'Auditoria Territorial', desc: 'Mapeamento da presença digital dos concorrentes na sua região e identificação de oportunidades inexploradas.' },
     { icon: 'chart', title: 'Google Meu Negócio Otimizado', desc: 'Configuração técnica completa do GMB para dominar as buscas locais e aparecer no mapa.' },
@@ -797,7 +797,7 @@ function Deliverables48h() {
     <section className="py-14 sm:py-20 px-4 sm:px-8 relative">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8 sm:mb-14">
-          <span className="section-label mb-4 sm:mb-6">Entrega Relâmpago</span>
+          <span className="section-label mb-4 sm:mb-6">Pronto em 48h</span>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#102A43] mb-4 sm:mb-6">
             O que você recebe em <span className="text-[#2CB1BC]">48 horas.</span>
           </h2>
@@ -910,7 +910,7 @@ function CTA() {
         <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse at 30% 20%, rgba(44,177,188,0.15) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(51,207,211,0.08) 0%, transparent 50%)' }} />
         <span className="section-label mb-5 sm:mb-8 text-[#33cfd3] relative z-10">Última Etapa</span>
         <h2 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-white leading-[1.0] tracking-tighter mb-5 sm:mb-8 relative z-10">
-          Sua reputação está trabalhando<br className="hidden sm:block" /> menos do que deveria.
+Cada dia parado é paciente<br className="hidden sm:block" /> na cadeira do concorrente.
         </h2>
         <p className="text-sm sm:text-xl text-white/50 font-medium mb-8 sm:mb-12 relative z-10 max-w-3xl mx-auto">
           Horários ociosos &times; Valor do procedimento = <span className="text-[#33cfd3] font-bold">Prejuízo mensal.</span><br/>Não dê essa vantagem para o concorrente ao lado.
@@ -933,7 +933,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 sm:gap-12">
         <div className="flex flex-col items-center md:items-start gap-4 sm:gap-6">
           <img src={import.meta.env.BASE_URL + 'pulso-logo.svg'} alt="Pulso" className="h-6 sm:h-7 w-auto" />
-          <p className="text-[#486581] text-[9px] sm:text-[10px] font-black uppercase tracking-widest sm:tracking-[0.3em]">Engenharia de Captação Odontológica © {new Date().getFullYear()}</p>
+          <p className="text-[#486581] text-[9px] sm:text-[10px] font-black uppercase tracking-widest sm:tracking-[0.3em]">Marketing pra dentista encher a agenda © {new Date().getFullYear()}</p>
         </div>
         <div className="flex gap-6 sm:gap-12">
           {['Serviços', 'Resultados', 'Planos', 'Wiki'].map((l) => (
